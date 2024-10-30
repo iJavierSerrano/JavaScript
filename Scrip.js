@@ -40,3 +40,17 @@ console.log("La multiplicación es:", multiplicacion);
 let division = numero3 / numero4;
 console.log("La división es:", division); 
 
+// Caracteres
+
+let letra1 = 'A';
+let letra2 = 'B';
+
+let palabra = letra1 + letra2;
+console.log("Concatenación de caracteres:", palabra); // Salida: "AB"
+
+let mensaje = "Hola";
+let primerCaracter = mensaje[0];
+console.log("Primer carácter de 'Hola':", primerCaracter); // Salida: "H"
+
+let longitud = mensaje.length;
+console.log("Longitud de 'Hola':", longitud); // Salida: 4
