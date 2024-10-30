@@ -16,3 +16,16 @@ else {
     console.log("Es de noche.");
 }
  
+// Numeros enteros
+
+let numero1 = 50;
+let numero2 =60;
+
+
+let suma = numero1 + numero2;
+console.log("La suma es:", suma); 
+
+
+let resta = numero1 - numero2;
+console.log("La resta es:", resta); 
+
