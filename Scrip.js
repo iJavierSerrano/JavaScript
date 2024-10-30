@@ -42,15 +42,15 @@ console.log("La división es:", division);
 
 // Caracteres
 
-let letra1 = 'A';
-let letra2 = 'B';
+let palabra1 = 'Hola ';
+let palabra2 = 'Como estas';
 
-let palabra = letra1 + letra2;
-console.log("Concatenación de caracteres:", palabra); // Salida: "AB"
+let palabra = palabra1 + palabra2;
+console.log("Concatenación de caracteres: \n", palabra); 
 
 let mensaje = "Hola";
 let primerCaracter = mensaje[0];
-console.log("Primer carácter de 'Hola':", primerCaracter); // Salida: "H"
+console.log("Primer carácter de 'Hola':", primerCaracter); 
 
 let longitud = mensaje.length;
-console.log("Longitud de 'Hola':", longitud); // Salida: 4
+console.log("Longitud de 'Hola':", longitud); 
