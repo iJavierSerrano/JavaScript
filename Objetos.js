@@ -32,5 +32,7 @@
     delete usuario.trabaja
     console.log(usuario)
 
-   
+    // Consultar si una propiedad existente
 
+    console.log(usuario.hasOwnProperty("nombre"))
+    console.log(usuario.hasOwnProperty("apellido"))
