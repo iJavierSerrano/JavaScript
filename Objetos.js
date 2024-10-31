@@ -15,3 +15,7 @@
     console.log(usuario.trabaja);
 
     
+
+    // 
+    usuario.carrera = "ING de sistemas"
+    console.log(usuario)
