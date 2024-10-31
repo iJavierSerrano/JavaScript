@@ -9,7 +9,7 @@
     // Agregar una funcion para saludar
 
     saludar(){
-      console.log(`Hola, mi nombre es${this.nombre} y tengo ${this.edad} años.`);
+      console.log(`Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años.`);
 
    }   
 }
@@ -36,3 +36,5 @@
 
     console.log(usuario.hasOwnProperty("nombre"))
     console.log(usuario.hasOwnProperty("apellido"))
+
+    usuario.saludar()
