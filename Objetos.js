@@ -5,7 +5,12 @@
     nombre: "Javier",
     edad: 25,
     trabaja: true, 
- }
+
+    saludar(){
+      console.log(`Hola, mi nombre es${this.nombre} y tengo ${this.edad} años.`);
+
+   }   
+}
     // Imprimir las propiedades de un objeto:
     console.log(usuario);
 
@@ -16,6 +21,9 @@
 
     
 
-    // 
+    // Agregar atrubutos
     usuario.carrera = "ING de sistemas"
     console.log(usuario)
+
+   
+
