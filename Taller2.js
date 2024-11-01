@@ -1,4 +1,4 @@
-//arreglo de 5 componentes promedio de las mismas 
+//arreglo de 5 componentes con el promedio
 
 const ejemplo = [1.80 , 1.70 ,1.15,2.00 ,1.40 ,]
 console.log("recorrer ejemplo con for")
@@ -11,7 +11,7 @@ console.log("la suma de los valores es: ", suma)
 let promedio = suma/ejemplo.length 
 console.log("el promedio de los valores es: ", promedio)
 
-//ejercicio frutas 
+//ejemplo frutas 
 
 let frutas = ["uva", "banano", "piña" ,"papaya"];
 console.log(frutas)
