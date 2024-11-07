@@ -37,3 +37,5 @@ console.log("eliminar coco: ", frutas)
 
 console.log("queda el arreglo en frutas " , frutas)
 
+
+
