@@ -29,13 +29,13 @@ class Nodo {
   
     // Método para eliminar el elemento del frente de la cola
     desencolar() {
-      if (this.estaVacia()) {
+      if (this.estaVacia()) { // condicional Comprobamos si la cola está vacía 
         return "La cola está vacía";
       }
       return this.items.shift(); // Elimina el primer elemento del array
     }
   
-    // Método para ver el primer elemento de la cola sin eliminarlo
+    // Método para ver el primer elemento de la cola sin eliminarlo 
     frente() {
       if (this.estaVacia()) {
         return "La cola está vacía";
@@ -65,13 +65,11 @@ class Nodo {
   cola.encolar(1);
   cola.encolar(2);
   cola.encolar(3);
+  cola.encolar(4);
   
+  cola.imprimir(); // Salida: 1,2,3,4
   console.log("Elemento frente de la cola:", cola.frente()); // Salida: 1
-  cola.imprimir(); // Salida: 1,2,3
-  
   console.log("Elemento desencolado:", cola.desencolar()); // Salida: 1
-  cola.imprimir(); // Salida: 2,3
-  
   console.log("Cola está vacía:", cola.estaVacia()); // Salida: false
-  console.log("Tamaño de la cola:", cola.tamaño()); // Salida: 2
-  
+  console.log("Tamaño de la cola:", cola.tamaño()); // Salida: 3
+  cola.imprimir(); // Salida: 2,3,4
